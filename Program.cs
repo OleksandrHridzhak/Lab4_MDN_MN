@@ -109,7 +109,7 @@ namespace ConsoleApp1
             double previousPoint = rangeStart;
             double previousValue = f(previousPoint);
 
-            for (double currentPoint = rangeStart + step; currentPoint <= rangeEnd + 1e-10; currentPoint += step)
+            for (double currentPoint = rangeStart + step; currentPoint <= rangeEnd; currentPoint += step)
             {
                 double currentValue = f(currentPoint);
 
